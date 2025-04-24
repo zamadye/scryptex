@@ -583,12 +583,12 @@ export const joinWaitlist = async (data: {
   username: string;
   ref?: string;
 }) => {
-  const res = await axios.post(`${BASE_URL}/waitlist`, data);
+  const res = await axios.post(`${BASE_URL}/api/waitlist`, data);
   return res.data;
 };
 
 export const getReferralInfo = async (code: string) => {
-  const res = await axios.get(`${BASE_URL}/waitlist/${code}`);
+  const res = await axios.get(`${BASE_URL}/api/waitlist/${code}`);
   return res.data;
 };
 
