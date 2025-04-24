@@ -19,7 +19,7 @@ export const HeroSection = () => {
             <img
               src="/media/logo.png"
               alt="Scryptex Logo"
-              className="h-13 sm:h-16"
+              className="h-10 sm:h-12"
             />
             <span className="ml-2 text-xl font-bold text-gray-900"></span>
           </Link>
